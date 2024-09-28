@@ -44,28 +44,11 @@ body {
 .message {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.hidden-image {
-  display: none; /* Inicialmente, a imagem está oculta */
-  width: 200px;
-  height: auto;
-  margin-top: 20px; /* Espaço entre o texto e a imagem */
-}
-
-.visible-image {
-  display: block; /* Mostra a imagem após 2 segundos */
 }
 
 @media (max-width: 768px) {
   .special-title {
     font-size: 1.8rem;
-  }
-  .hidden-image {
-    width: 120px; /* Ajuste para telas menores */
   }
 }
 
